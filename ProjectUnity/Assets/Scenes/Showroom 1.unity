@@ -8041,12 +8041,12 @@ PrefabInstance:
     - target: {fileID: 6318073825782510627, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.183
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 6318073825782510627, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.634
+      value: 2.57
       objectReference: {fileID: 0}
     - target: {fileID: 6318073825782510627, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}

@@ -6953,6 +6953,12 @@ PrefabInstance:
       propertyPath: m_FurnitureMeshRenderer
       value: 
       objectReference: {fileID: 284312720}
+    - target: {fileID: 6318073825782510631, guid: 2ace1e79b2884234892a0ccdb4de93cb,
+        type: 3}
+      propertyPath: m_FurnitureData
+      value: 
+      objectReference: {fileID: 11400000, guid: fcb302eb6e87a444fad70f22ac9576e5,
+        type: 2}
     - target: {fileID: 6318073827056141875, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}
       propertyPath: m_Name
@@ -12264,6 +12270,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 3.4757552, z: 1.5443596}
   m_Center: {x: 4.489268e-18, y: 1.2378776, z: -0.0016372204}
+--- !u!23 &2004576952 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2333974, guid: 15c73f2f0f266164c9020c0911bd0779,
+    type: 3}
+  m_PrefabInstance: {fileID: 2004576947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2023207735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12451,6 +12463,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -22.088001
       objectReference: {fileID: 0}
+    - target: {fileID: 6318073825782510631, guid: 2ace1e79b2884234892a0ccdb4de93cb,
+        type: 3}
+      propertyPath: m_FurnitureMeshRenderer
+      value: 
+      objectReference: {fileID: 2004576952}
+    - target: {fileID: 6318073825782510631, guid: 2ace1e79b2884234892a0ccdb4de93cb,
+        type: 3}
+      propertyPath: m_FurnitureData
+      value: 
+      objectReference: {fileID: 11400000, guid: d9d918d8dd9a45b45acc061ffbb9a3ed,
+        type: 2}
     - target: {fileID: 6318073827056141875, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}
       propertyPath: m_Name

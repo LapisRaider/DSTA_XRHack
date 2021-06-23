@@ -10003,6 +10003,12 @@ PrefabInstance:
       propertyPath: m_FurnitureMeshRenderer
       value: 
       objectReference: {fileID: 1370372821}
+    - target: {fileID: 6318073825782510631, guid: 2ace1e79b2884234892a0ccdb4de93cb,
+        type: 3}
+      propertyPath: m_FurnitureData
+      value: 
+      objectReference: {fileID: 11400000, guid: d9d918d8dd9a45b45acc061ffbb9a3ed,
+        type: 2}
     - target: {fileID: 6318073827056141875, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}
       propertyPath: m_Name

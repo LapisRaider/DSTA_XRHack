@@ -4209,12 +4209,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5465001, y: 1.3072032, z: 0.62272143}
   m_Center: {x: -0.00031252205, y: 0.651707, z: 0.013464332}
---- !u!23 &622519112 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2374662, guid: eaf7323b17563f44eaf609d3859a3799,
-    type: 3}
-  m_PrefabInstance: {fileID: 622519106}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &628958465
 GameObject:
   m_ObjectHideFlags: 0
@@ -8399,6 +8393,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5465002, y: 1.3072032, z: 0.62272155}
   m_Center: {x: -0.00031228372, y: 0.651707, z: 0.013464334}
+--- !u!23 &1358442250 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2374662, guid: eaf7323b17563f44eaf609d3859a3799,
+    type: 3}
+  m_PrefabInstance: {fileID: 1358442244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1363116560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9209,7 +9209,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FurnitureMeshRenderer
       value: 
-      objectReference: {fileID: 622519112}
+      objectReference: {fileID: 1358442250}
     - target: {fileID: 6318073825782510631, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}
       propertyPath: m_FurnitureData

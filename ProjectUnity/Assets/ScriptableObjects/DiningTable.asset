@@ -17,4 +17,10 @@ MonoBehaviour:
     people.
   m_FurniturePrice: 299
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 11a31a3c9b3cce341a4a1595d0720f44,
+      type: 2}
+    m_UIColor: {r: 0.7069857, g: 0.8867924, b: 0.55633676, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 33dbfcb83c86bb3459b78799b05046ed,
+      type: 2}
+    m_UIColor: {r: 0.38823533, g: 0.6784314, b: 0.78823537, a: 1}

@@ -16,4 +16,16 @@ MonoBehaviour:
   m_FurnitureDescription: Blocks out light effectively, ensuring undisturbed sleep.
   m_FurniturePrice: 69
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 58118737f2b60854bb82664a6cdd9f34,
+      type: 2}
+    m_UIColor: {r: 0.6901961, g: 0.6901961, b: 0.7411765, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: bf0a6e58de2fca64393d0787c92125df,
+      type: 2}
+    m_UIColor: {r: 0.6627451, g: 0.7607844, b: 0.6117647, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 6487bf0841360cb4d88d9d682b7db6ca,
+      type: 2}
+    m_UIColor: {r: 0.454902, g: 0.454902, b: 0.454902, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 82ff767e924de2b4fa91426e12b406c3,
+      type: 2}
+    m_UIColor: {r: 0.8078432, g: 0.8078432, b: 0.8078432, a: 1}

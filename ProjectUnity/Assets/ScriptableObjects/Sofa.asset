@@ -27,3 +27,6 @@ MonoBehaviour:
   - m_FurnitureMaterial: {fileID: 2100000, guid: 18e04f1bc8dec6348bfa49404d75a760,
       type: 2}
     m_UIColor: {r: 0.47058827, g: 0.47058827, b: 0.47058827, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 6ce875f76375c5143821fa1c8269dad1,
+      type: 2}
+    m_UIColor: {r: 0.87843144, g: 0.85098046, b: 0.78823537, a: 1}

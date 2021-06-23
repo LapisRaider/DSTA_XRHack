@@ -17,4 +17,13 @@ MonoBehaviour:
     to keep your items organised and easy to reach.
   m_FurniturePrice: 425
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 3e832fd738f44de479c21a4c08b2ca3b,
+      type: 2}
+    m_UIColor: {r: 0.9490197, g: 0.9176471, b: 0.82745105, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: b310dc4ce2138fd48a76072a128313e2,
+      type: 2}
+    m_UIColor: {r: 0.15294118, g: 0.15294118, b: 0.15294118, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 4a58650a19607b34191d0a86c8a86ed5,
+      type: 2}
+    m_UIColor: {r: 0.38823533, g: 0.3254902, b: 0.24313727, a: 1}

@@ -17,4 +17,10 @@ MonoBehaviour:
     base, including a wide shower head and temperature control, a functional classic.
   m_FurniturePrice: 649
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 700de20d88a1a8d43a0371b85ac31c2b,
+      type: 2}
+    m_UIColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: d0552d848c426c44b9b73908b0acb3ed,
+      type: 2}
+    m_UIColor: {r: 0.29411766, g: 0.29411766, b: 0.29411766, a: 1}

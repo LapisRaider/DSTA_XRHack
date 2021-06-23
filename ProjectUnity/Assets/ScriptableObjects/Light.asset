@@ -17,4 +17,13 @@ MonoBehaviour:
     have a sign stuck on to function as a sign.
   m_FurniturePrice: 30
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 78ece461ebe3d464b9c794c0bca2dc05,
+      type: 2}
+    m_UIColor: {r: 0.47058827, g: 0.098039225, b: 0.15686275, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: f766be3524c884c4ebcee8b337384dde,
+      type: 2}
+    m_UIColor: {r: 1, g: 1, b: 0.82745105, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 1c88cdfc49c5ebf43a7983059ddbedd4,
+      type: 2}
+    m_UIColor: {r: 0.8235295, g: 0.9960785, b: 1, a: 0}

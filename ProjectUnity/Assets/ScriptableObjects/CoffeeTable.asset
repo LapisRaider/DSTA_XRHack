@@ -17,4 +17,16 @@ MonoBehaviour:
     look and feel to this piece of furnishing.
   m_FurniturePrice: 59
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 3e832fd738f44de479c21a4c08b2ca3b,
+      type: 2}
+    m_UIColor: {r: 0.8862746, g: 0.854902, b: 0.7803922, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: b310dc4ce2138fd48a76072a128313e2,
+      type: 2}
+    m_UIColor: {r: 0, g: 0, b: 0, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: f1329cda29a54864faa1b7c8b3db1fae,
+      type: 2}
+    m_UIColor: {r: 0.59607846, g: 0.5019608, b: 0.41176474, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: c7501048e24ac934e97053f11e862f11,
+      type: 2}
+    m_UIColor: {r: 0.37647063, g: 0.29803923, b: 0.27450982, a: 1}

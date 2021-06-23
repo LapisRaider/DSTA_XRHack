@@ -14,7 +14,6 @@ public class FurnitureUI : MonoBehaviour
     public TextMeshProUGUI m_NameUI;
     public TextMeshProUGUI m_DescriptionUI;
     public TextMeshProUGUI m_PriceUI;
-    public Image m_FurnitureImage;
 
     public Image[] m_MatrialUI;
 
@@ -25,7 +24,6 @@ public class FurnitureUI : MonoBehaviour
         m_NameUI.SetText(m_FurnitureData.m_FurnitureName);
         m_DescriptionUI.SetText(m_FurnitureData.m_FurnitureDescription);
         m_PriceUI.SetText("$ " + m_FurnitureData.m_FurniturePrice);
-        m_FurnitureImage.sprite = m_FurnitureData.m_FurnitureImage;
 
         for (int i = 0; i < m_MatrialUI.Length; ++i)
         {

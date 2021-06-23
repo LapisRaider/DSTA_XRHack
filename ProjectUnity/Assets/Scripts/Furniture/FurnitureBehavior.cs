@@ -5,57 +5,42 @@ using UnityEngine;
 public class FurnitureBehavior : MonoBehaviour
 {
     public GameObject m_FurnitureUI = null;
-
-    private bool m_InFurnitureRadius = false;
+    public GameObject m_ClickMeUI = null;
 
     private void Awake()
     {
-        m_InFurnitureRadius = false;
+        if (m_ClickMeUI != null)
+            m_ClickMeUI.SetActive(false);
+
+        if (m_FurnitureUI != null)
+            m_FurnitureUI.SetActive(false);
     }
 
     // enter looking at furniture
     public void EnterLookAtFurniture()
     {
-        if (!m_InFurnitureRadius)
-            return;
+        //maybe just another click me UI or something
+        if (m_ClickMeUI != null)
+            m_ClickMeUI.SetActive(true);
+
     }
 
     // exit looking at furniture
     public void ExitLookAtFurniture()
     {
-        if (!m_InFurnitureRadius)
-            return;
+        if (m_ClickMeUI != null)
+            m_ClickMeUI.SetActive(false);
+
     }
 
     // click on furniture
     public void ClickedOnFurniture()
     {
-        if (!m_InFurnitureRadius)
-            return;
-
         //bring up UI
-        if (m_FurnitureUI == null)
-            return;
+        if (m_FurnitureUI != null)
+            m_FurnitureUI.SetActive(true);
 
-        m_FurnitureUI.SetActive(true);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            m_InFurnitureRadius = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            m_InFurnitureRadius = false;
-
-            if (m_FurnitureUI != null)
-                m_FurnitureUI.SetActive(false);
-        }
+        if (m_ClickMeUI != null)
+            m_ClickMeUI.SetActive(false);
     }
 }

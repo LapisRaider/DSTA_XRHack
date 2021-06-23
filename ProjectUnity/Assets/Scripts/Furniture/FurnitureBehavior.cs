@@ -46,5 +46,7 @@ public class FurnitureBehavior : MonoBehaviour
 
         if (m_ClickMeUI != null)
             m_ClickMeUI.SetActive(false);
+
+        PlayerManager.Instance.OpenNewUI(this);
     }
 }

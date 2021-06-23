@@ -162,12 +162,15 @@ public class GvrTrackedController : MonoBehaviour
 
     private void OnEnable()
     {
-        // Print an error to console if no GvrControllerInput is found.
-        if (controllerInputDevice.State == GvrConnectionState.Error)
+        if (controllerInputDevice != null)
         {
-            Debug.LogWarning(controllerInputDevice.ErrorDetails);
+            // Print an error to console if no GvrControllerInput is found.
+            if (controllerInputDevice.State == GvrConnectionState.Error)
+            {
+                Debug.LogWarning(controllerInputDevice.ErrorDetails);
+            }
         }
-
+ 
         // Update the position using OnPostControllerInputUpdated.
         // This way, the position and rotation will be correct for the entire frame
         // so that it doesn't matter what order Updates get called in.

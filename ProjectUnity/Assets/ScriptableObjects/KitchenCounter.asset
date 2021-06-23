@@ -17,4 +17,13 @@ MonoBehaviour:
     of shelves for storage, a sink for washing and a stove for cooking.
   m_FurniturePrice: 1340
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 8c0ac9aa7e0525b4b87e596d7f18f23f,
+      type: 2}
+    m_UIColor: {r: 0.49803925, g: 0.45882356, b: 0.4039216, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: d7fac99e59564c849b1d7c8b3f230e86,
+      type: 2}
+    m_UIColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 5830bdb03b00af140bcc7701b47f0f11,
+      type: 2}
+    m_UIColor: {r: 0.45098042, g: 0.15686275, b: 0.17254902, a: 1}

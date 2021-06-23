@@ -17,4 +17,7 @@ MonoBehaviour:
     body, train your whole body with just this bench.
   m_FurniturePrice: 115
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: bd7c04d751a81fc4e91dbfc3af48bdd6,
+      type: 2}
+    m_UIColor: {r: 0, g: 0, b: 0, a: 1}

@@ -17,4 +17,7 @@ MonoBehaviour:
     clothes.
   m_FurniturePrice: 348
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 8f8c9ce83abbea64c92c3a8fba83d28d,
+      type: 2}
+    m_UIColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}

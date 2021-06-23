@@ -16,4 +16,13 @@ MonoBehaviour:
   m_FurnitureDescription: Tempered glass and steel make a fine addition to any home.
   m_FurniturePrice: 249
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 72b3a3341a11ce947951f1b0046294b4,
+      type: 2}
+    m_UIColor: {r: 0.14117648, g: 0.121568635, b: 0.10588236, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: b310dc4ce2138fd48a76072a128313e2,
+      type: 2}
+    m_UIColor: {r: 0.07058824, g: 0.07058824, b: 0.07058824, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: c1b239a4abb1df5448c5c840df89e74e,
+      type: 2}
+    m_UIColor: {r: 0.27450982, g: 0.32156864, b: 0.2392157, a: 1}

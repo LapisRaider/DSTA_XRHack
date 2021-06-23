@@ -17,4 +17,7 @@ MonoBehaviour:
     and finesse all at once in the washroom.
   m_FurniturePrice: 160
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: e9609e313ed2706499fcde3625490f79,
+      type: 2}
+    m_UIColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}

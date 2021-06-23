@@ -17,4 +17,10 @@ MonoBehaviour:
     from, it serves its purpose well.
   m_FurniturePrice: 70
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 700de20d88a1a8d43a0371b85ac31c2b,
+      type: 2}
+    m_UIColor: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 552c40cb0bff6524d88e70f225338780,
+      type: 2}
+    m_UIColor: {r: 0.14509805, g: 0.13725491, b: 0.16862746, a: 1}

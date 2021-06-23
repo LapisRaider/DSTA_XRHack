@@ -16,4 +16,13 @@ MonoBehaviour:
   m_FurnitureDescription: A porcelain throne.
   m_FurniturePrice: 675
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: dff852f5c9c88b34ab8830713c16069b,
+      type: 2}
+    m_UIColor: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 4a58650a19607b34191d0a86c8a86ed5,
+      type: 2}
+    m_UIColor: {r: 0.3372549, g: 0.27058825, b: 0.20000002, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: b310dc4ce2138fd48a76072a128313e2,
+      type: 2}
+    m_UIColor: {r: 0.1137255, g: 0.1137255, b: 0.1137255, a: 1}

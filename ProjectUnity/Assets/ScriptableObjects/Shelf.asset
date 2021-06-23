@@ -17,4 +17,16 @@ MonoBehaviour:
     of household.
   m_FurniturePrice: 25
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 3e832fd738f44de479c21a4c08b2ca3b,
+      type: 2}
+    m_UIColor: {r: 0.49411768, g: 0.4784314, b: 0.43137258, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 4a58650a19607b34191d0a86c8a86ed5,
+      type: 2}
+    m_UIColor: {r: 0.31132078, g: 0.20632343, b: 0.1013261, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: c1b239a4abb1df5448c5c840df89e74e,
+      type: 2}
+    m_UIColor: {r: 0.42352945, g: 0.4901961, b: 0.37647063, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: c7501048e24ac934e97053f11e862f11,
+      type: 2}
+    m_UIColor: {r: 0.2264151, g: 0.13109647, b: 0.0993236, a: 1}

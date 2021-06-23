@@ -16,4 +16,13 @@ MonoBehaviour:
   m_FurnitureDescription: Skid resistant with a simple design.
   m_FurniturePrice: 5
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 5e6a9dfb52e82ea478ba4ffeac974641,
+      type: 2}
+    m_UIColor: {r: 0.10980393, g: 0.22352943, b: 0.31764707, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 767e0a846034b59418ba030f4250f967,
+      type: 2}
+    m_UIColor: {r: 0.35686275, g: 0.1137255, b: 0.1137255, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 5266a80d208f22a4784bcf3caf60395a,
+      type: 2}
+    m_UIColor: {r: 0.10980393, g: 0.10980393, b: 0.12941177, a: 1}

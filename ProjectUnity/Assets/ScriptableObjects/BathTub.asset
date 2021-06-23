@@ -17,4 +17,7 @@ MonoBehaviour:
     by polished marble, a luxurious addition to any washroom.
   m_FurniturePrice: 1400
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: c4c17b7f83a4c7047b78216aed51a094,
+      type: 2}
+    m_UIColor: {r: 0.27058825, g: 0.24705884, b: 0.21960786, a: 1}

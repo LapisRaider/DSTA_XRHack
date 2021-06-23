@@ -17,4 +17,13 @@ MonoBehaviour:
     in style.
   m_FurniturePrice: 495
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 4d8410f5c14a6eb4ba6963fa7af6e1d4,
+      type: 2}
+    m_UIColor: {r: 0.34117648, g: 0.0627451, b: 0.0627451, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 5a2028e6cfa9eac4fa2758e57782d120,
+      type: 2}
+    m_UIColor: {r: 0.5686275, g: 0.5882353, b: 0.54509807, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 18e04f1bc8dec6348bfa49404d75a760,
+      type: 2}
+    m_UIColor: {r: 0.47058827, g: 0.47058827, b: 0.47058827, a: 1}

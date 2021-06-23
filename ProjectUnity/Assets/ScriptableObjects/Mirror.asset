@@ -17,4 +17,10 @@ MonoBehaviour:
     or vertically to suit your preferences.
   m_FurniturePrice: 99
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: d170341dbf84cf54595e0350f95efbdd,
+      type: 2}
+    m_UIColor: {r: 0.21568629, g: 0.20392159, b: 0.19215688, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 37af0fc3c2446914db5e3120ceab64ef,
+      type: 2}
+    m_UIColor: {r: 0.2627451, g: 0.3254902, b: 0.37647063, a: 0}

@@ -17,4 +17,7 @@ MonoBehaviour:
     measure speed, distance and incline without ever leaving your home.
   m_FurniturePrice: 489
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: e238778b006f6fa45851c332b53f4ac5,
+      type: 2}
+    m_UIColor: {r: 0, g: 0, b: 0, a: 1}

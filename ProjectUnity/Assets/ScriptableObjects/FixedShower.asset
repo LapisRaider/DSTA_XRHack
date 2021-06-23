@@ -17,4 +17,10 @@ MonoBehaviour:
     control and stainless steel outer covering, a modest utilitarian design.
   m_FurniturePrice: 149
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 3198b43aedf464946a60f4140fd1a622,
+      type: 2}
+    m_UIColor: {r: 0.86666673, g: 0.86666673, b: 0.86666673, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 4a58650a19607b34191d0a86c8a86ed5,
+      type: 2}
+    m_UIColor: {r: 0.6745098, g: 0.54901963, b: 0.42352945, a: 1}

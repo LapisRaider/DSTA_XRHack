@@ -17,4 +17,16 @@ MonoBehaviour:
     or exit whenever the user sees fit.
   m_FurniturePrice: 200
   m_FurnitureImage: {fileID: 0}
-  m_FurnitureMaterial: []
+  m_FurnitureMaterial:
+  - m_FurnitureMaterial: {fileID: 2100000, guid: a72d7db075176fd4c95e65f485f75aee,
+      type: 2}
+    m_UIColor: {r: 0.20392159, g: 0.20392159, b: 0.20392159, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: ede35a9a6cc492448b182831e3ff1ed8,
+      type: 2}
+    m_UIColor: {r: 0.52156866, g: 0.43921572, b: 0.35686275, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 40499556b7011514b9a8712a20262e9f,
+      type: 2}
+    m_UIColor: {r: 0.53333336, g: 0.5176471, b: 0.5137255, a: 1}
+  - m_FurnitureMaterial: {fileID: 2100000, guid: 55e90b98b5191544bb4d9c51932e8db5,
+      type: 2}
+    m_UIColor: {r: 0.63529414, g: 0.63529414, b: 0.63529414, a: 1}

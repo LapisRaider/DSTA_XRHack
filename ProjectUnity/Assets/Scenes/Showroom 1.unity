@@ -9891,7 +9891,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FurnitureData
       value: 
-      objectReference: {fileID: 11400000, guid: 639efafd9d46a8d479d10ce7019c29eb,
+      objectReference: {fileID: 11400000, guid: 448efbcf05074f540b136907b2a57e9d,
         type: 2}
     - target: {fileID: 6318073825782510631, guid: 2ace1e79b2884234892a0ccdb4de93cb,
         type: 3}

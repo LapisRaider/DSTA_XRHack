@@ -19,10 +19,14 @@ public class FurnitureBehavior : MonoBehaviour
     // enter looking at furniture
     public void EnterLookAtFurniture()
     {
-        //maybe just another click me UI or something
+        if (m_FurnitureUI == null)
+            return;
+
+        if (m_FurnitureUI.activeSelf)
+            return;
+
         if (m_ClickMeUI != null)
             m_ClickMeUI.SetActive(true);
-
     }
 
     // exit looking at furniture

@@ -53,6 +53,9 @@ public class FurnitureBehavior : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             m_InFurnitureRadius = false;
+
+            if (m_FurnitureUI != null)
+                m_FurnitureUI.SetActive(false);
         }
     }
 }
